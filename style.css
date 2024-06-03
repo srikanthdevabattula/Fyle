@@ -132,7 +132,7 @@ opacity: 1;
 }
 
 .agree{
-    margin: 10px;
+    margin: 10px 0px;
     text-align: left;
 letter-spacing: 0px;
 color: #616678;
@@ -493,13 +493,13 @@ color: #FF3147;
 }
 
 .email{
-    width: 95%;
+    width: 100%;
     
     border-top: 2px;
     border-left: 0px;
     border-right: 0px;
     outline: none;
-    margin: 20px;
+    margin: 20px 0px;
     border-color:#6F718F99 ;
     color: #2D3142;
     font-family: poppins;
@@ -512,6 +512,7 @@ color: #FF3147;
 .names{
     width: 100%;
     display: flex;
+    gap: 5px;
 }
 .names input{
    
@@ -520,7 +521,7 @@ color: #FF3147;
     border-left: 0px;
     border-right: 0px;
     outline: none;
-    margin: 20px;
+    margin: 20px 0px;
     border-color:#6F718F99 ;
     color: #2D3142;
     font-family: poppins;
@@ -1164,7 +1165,7 @@ color: #FF3147;
     display: none; 
     position: fixed; 
     z-index: 1; 
-    padding-top: 60px; 
+    padding-top: 30px; 
     left: 0;
     top: 0;
     width: 100%; 
@@ -1185,9 +1186,7 @@ font-family: poppins;
    
     margin: 5% auto; 
     padding: 30px;
-   
-   
-    width: 450px;
+    width: 250px;
 height: 362px;
 /* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -1211,12 +1210,13 @@ opacity: 1;
 }
 
 .agree{
-    margin: 10px;
+    margin: 10px 0px;
     text-align: left;
 letter-spacing: 0px;
 color: #616678;
 opacity: 0.9;
 font-family: poppins;
+font-size: 7px;
 }
 .slidestop{
     
@@ -1582,7 +1582,7 @@ color: #FF3147;
     border-left: 0px;
     border-right: 0px;
     outline: none;
-    margin: 20px;
+    margin: 10px 0px;
     border-color:#6F718F99 ;
     color: #2D3142;
     font-family: poppins;
@@ -1603,7 +1603,7 @@ color: #FF3147;
     border-left: 0px;
     border-right: 0px;
     outline: none;
-    margin: 20px;
+    margin: 3px;
     border-color:#6F718F99 ;
     color: #2D3142;
     font-family: poppins;
