@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hero-container">
+    </div>
+
+   
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 class="m-head">Talk to us</h2>
+            <form id="contactForm" >
+                
+                <input class="email" placeholder="Work email*" type="email" id="email" name="email" required>
+                
+               <div class="names">
+                <input   type="text" placeholder="First Name*" id="fname" name="fname" required>
+                
+              
+                <input type="text" placeholder="Last Name*" id="lname" name="lname" required>
+            </div>
+                <label class="agree">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    I agree to Fyle's terms and conditions, and provide consent to send me communication.
+                </label>
+                
+                <br>
+                <button class="buttons" type="submit">Contact Us</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="slidestop">
+        <div class="slides-top">
+            <div class="st1">
+                <h4>WHAT WE DO</h4>
+                <h3>Services provide <br>for you</h3>
+            </div>
+            <p>Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus, Morbi sed lacus nec risus finibus feugiat et fermentum</p>
+        </div>
+        <div class="what-we-do">
+        
+            <div class="slider">
+                <div class="slides">
+                    <div class="slide" style="background-image: url('./assets/1.png');">
+                        <div class="overlay">
+                            <img src="./assets/icon (1).svg" alt="">
+                            <p class="ol-para">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                            <button class="ol-btn" >Read More <img src="./assets/arrow.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('./assets/2.png');">
+                        <div class="overlay">
+                            <img src="./assets/icon (1).svg" alt="">
+                            <p class="ol-para">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                            <button class="ol-btn" >Read More <img src="./assets/arrow.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('./assets/1.png');">
+                        <div class="overlay">
+                            <img src="./assets/icon (1).svg" alt="">
+                            <p class="ol-para">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                            <button class="ol-btn" >Read More <img src="./assets/arrow.png" alt=""></button>
+                        </div>
+                    </div>
+                    <div class="slide" style="background-image: url('./assets/3.png');">
+                        <div class="overlay">
+                            <img src="./assets/icon (1).svg" alt="">
+                            <p class="ol-para">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque</p>
+                            <button class="ol-btn" >Read More <img src="./assets/arrow.png" alt=""></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation-dots">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+               
+            </div>
+        </div>
+
+    </div>
+<div>
+    <div class="wwd">
+        <h4>WHY CHOOSE US</h4>
+        <h2>Why We Are Best</h2>
+    </div>
+    <div class="why-we-are-best">
+        
+        <div class="wwb-data">
+            <img src="./assets/wwb1.png" alt="">
+            <h5>Clarified Vision & Target</h5>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        </div>
+        <div class="wwb-data">
+            <img src="./assets/2.svg" alt="">
+            <h5>High Performance</h5>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        </div>
+        <div class="wwb-data">
+            <img src="./assets/3.svg" alt="">
+            <h5>Maintain Security</h5>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        </div>
+        <div class="wwb-data">
+            <img src="./assets/4.svg" alt="">
+            <h5>Better Strategy & Quality</h5>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+        </div>
+
+    </div>
+</div>
+
+
+<div> 
+    <div class="wwd">
+        <h4>Our project</h4>
+        <h2>Why We Are Best</h2>
+    </div>
+
+    <div class="our-projects">
+        <div class="op-1"><img src="./assets/image.png" alt=""></div>
+        <div class="op-2">
+            <div data-image="./assets/image.png" class="active">
+                <h4>Genderless Kei – Japan’s Hot</h4>
+                <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+            </div>
+            <div data-image="./assets/business-simple-geometric-food-restaurant-promotional-banner_6022754.jpg!w700wp">
+                <h4>Better Strategy & Quality</h4>
+                <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+            </div>
+            <div data-image="./assets/food-menu-restaurant-web-banner-template_106176-812.avif">
+                <h4>Genderless Kei – Japan’s Hot</h4>
+                <p>Set to launch on the manufacturer’s new A330neo aircraft in 2017, it’s offering lots of</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="Experts-growts"> 
+    <div class="wwd">
+        <h4>Our project</h4>
+        <h2>Why We Are Best</h2>
+    </div>
+
+    <div class="OCG-divs">
+    <div class="OCG ">
+        <img src="./assets/heart (2).png" alt="">
+        <h2>199 +</h2>
+        <p>Staticfied Customers</p>
+    </div>
+
+    <div class="OCG">
+        <img src="./assets/heart (2).png" alt="">
+        <h2>1591+</h2>
+        <p>Days Of Operation</p>
+    </div>
+
+    <div class="OCG">
+        <img src="./assets/heart (2).png" alt="">
+        <h2>283 +</h2>
+        <p>Complete Project</p>
+    </div>
+
+    <div class="OCG">
+        <img src="./assets/heart (2).png" alt="">
+        <h2>75+</h2>
+        <p>Win Awards</p>
+    </div>
+</div>
+    </div>
+
+
+    <div class="Client-Fb">
+        <div class="wwd">
+            <h4>CLIENT'S FEEDBACK </h4>
+            <h2>people say's about us !</h2>
+        </div>
+
+        <div class="cf-text">
+            <p>Jannat Tumpa The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections Bonorum et Malorum original.</p>
+            <h4><span>JANNAT TUMPA</span>- COO, AMERIMAR ENTERPRISES, INC.</h4>
+        </div>
+
+    </div>
+
+    <div class="footer"> 
+        <img src="./assets/Group 500.png" alt="">
+    </div>
+
+
+    <script src="hero.js"></script>
+</body>
+</html>
